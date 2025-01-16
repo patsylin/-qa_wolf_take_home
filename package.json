@@ -8,10 +8,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "playwright": "^1.39.0"
+    "ajv": "^8.17.1",
+    "ansi-regex": "^6.1.0",
+    "axios": "^1.7.9",
+    "bl": "^6.0.18",
+    "chownr": "^3.0.0",
+    "cross-spawn": "^7.0.6",
+    "debug": "^4.4.0",
+    "deep-extend": "^0.6.0",
+    "dot-prop": "^9.0.0",
+    "extend": "^3.0.2",
+    "fstream": "^1.0.12",
+    "got": "^14.4.5",
+    "har-validator": "^5.1.5",
+    "hawk": "^9.0.2",
+    "node-gyp": "^11.0.0",
+    "npm": "^11.0.0",
+    "playwright": "^1.49.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.39.0",
     "@types/node": "^20.8.9"
-  }
+  },
+  "type": "module"
 }
